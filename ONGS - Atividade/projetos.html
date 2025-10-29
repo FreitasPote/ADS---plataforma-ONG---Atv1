@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Conheça os projetos sociais da ONG Conecta."
+    />
+    <title>Projetos | ONG Conecta</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>ONG Conecta</h1>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="voluntariado.html">Voluntariado</a></li>
+          <li><a href="doacoes.html">Doações</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="projetos">
+        <h2>Projetos Sociais</h2>
+
+        <div class="filtro-categorias">
+          <label for="categoria">Filtrar por categoria:</label>
+          <select id="categoria">
+            <option value="todos">Todos</option>
+            <option value="educacao">Educação</option>
+            <option value="saude">Saúde</option>
+            <option value="meio-ambiente">Meio Ambiente</option>
+          </select>
+        </div>
+
+        <div class="galeria-projetos">
+          <article class="projeto" data-categoria="educacao">
+            <img
+              src="img/projeto-educacao.jpg"
+              alt="Projeto Educação Transformadora"
+            />
+            <h3>Educação Transformadora</h3>
+            <p>
+              Oficinas de reforço escolar e inclusão digital para jovens em
+              situação de vulnerabilidade.
+            </p>
+            <ul>
+              <li>🧑‍🎓 250 alunos atendidos</li>
+              <li>🎯 90% de aprovação escolar</li>
+            </ul>
+          </article>
+
+          <article class="projeto" data-categoria="saude">
+            <img src="img/projeto-saude.jpg" alt="Projeto Saúde Comunitária" />
+            <h3>Saúde Comunitária</h3>
+            <p>
+              Atendimentos médicos gratuitos e campanhas de prevenção em
+              comunidades carentes.
+            </p>
+            <ul>
+              <li>🏥 1.200 atendimentos realizados</li>
+              <li>💉 3 campanhas de vacinação</li>
+            </ul>
+          </article>
+
+          <article class="projeto" data-categoria="meio-ambiente">
+            <img src="img/projeto-meioambiente.jpg" alt="Projeto Verde Vivo" />
+            <h3>Verde Vivo</h3>
+            <p>
+              Mutirões de limpeza, plantio de árvores e educação ambiental em
+              escolas públicas.
+            </p>
+            <ul>
+              <li>🌳 500 árvores plantadas</li>
+              <li>🏫 20 escolas envolvidas</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 ONG Conecta. Todos os direitos reservados.</p>
+      <p><a href="mailto:contato@ongconecta.org">contato@ongconecta.org</a></p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

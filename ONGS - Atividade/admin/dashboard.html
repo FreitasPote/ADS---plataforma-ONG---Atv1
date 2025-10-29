@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Painel administrativo da ONG Conecta." />
+    <title>Painel Admin | ONG Conecta</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Painel do Administrador</h1>
+        <ul>
+          <li><a href="../index.html">Site Público</a></li>
+          <li><a href="#">Projetos</a></li>
+          <li><a href="#">Voluntários</a></li>
+          <li><a href="#">Doações</a></li>
+          <li><a href="#">Relatórios</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="resumo">
+        <h2>Resumo Geral</h2>
+        <ul>
+          <li><strong>Projetos ativos:</strong> 12</li>
+          <li><strong>Voluntários inscritos:</strong> 85</li>
+          <li><strong>Doações recebidas:</strong> R$ 23.400</li>
+          <li><strong>Taxa de engajamento:</strong> 78%</li>
+        </ul>
+      </section>
+
+      <section id="cadastro-projeto">
+        <h2>Cadastrar Novo Projeto</h2>
+        <form id="form-projeto">
+          <label for="titulo">Título do projeto:</label>
+          <input type="text" id="titulo" name="titulo" required />
+
+          <label for="descricao">Descrição:</label>
+          <textarea id="descricao" name="descricao" required></textarea>
+
+          <label for="categoria">Categoria:</label>
+          <select id="categoria" name="categoria" required>
+            <option value="">Selecione</option>
+            <option value="educacao">Educação</option>
+            <option value="saude">Saúde</option>
+            <option value="meio-ambiente">Meio Ambiente</option>
+          </select>
+
+          <button type="submit">Cadastrar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 ONG Conecta. Painel administrativo.</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>

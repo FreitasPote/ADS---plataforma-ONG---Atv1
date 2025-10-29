@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Descubra oportunidades de voluntariado e faça parte da transformação social."
+    />
+    <title>Voluntariado | ONG Conecta</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>ONG Conecta</h1>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="voluntariado.html">Voluntariado</a></li>
+          <li><a href="doacoes.html">Doações</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="oportunidades">
+        <h2>Oportunidades de Voluntariado</h2>
+
+        <article class="vaga">
+          <h3>Mentoria Educacional</h3>
+          <p>Ajude jovens com reforço escolar e orientação vocacional.</p>
+          <p><strong>Local:</strong> Centro Comunitário São Lucas</p>
+          <p><strong>Horário:</strong> Sábados, das 9h às 12h</p>
+        </article>
+
+        <article class="vaga">
+          <h3>Campanha de Saúde</h3>
+          <p>
+            Apoie na organização de atendimentos e distribuição de materiais
+            informativos.
+          </p>
+          <p><strong>Local:</strong> UBS Jardim Esperança</p>
+          <p><strong>Horário:</strong> Quartas, das 14h às 17h</p>
+        </article>
+      </section>
+
+      <section id="inscricao">
+        <h2>Inscreva-se como Voluntário</h2>
+        <form id="form-voluntario">
+          <label for="nome">Nome completo:</label>
+          <input type="text" id="nome" name="nome" required />
+
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="vaga">Escolha a vaga:</label>
+          <select id="vaga" name="vaga" required>
+            <option value="">Selecione</option>
+            <option value="mentoria">Mentoria Educacional</option>
+            <option value="saude">Campanha de Saúde</option>
+          </select>
+
+          <button type="submit">Enviar inscrição</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 ONG Conecta. Todos os direitos reservados.</p>
+      <p><a href="mailto:contato@ongconecta.org">contato@ongconecta.org</a></p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
